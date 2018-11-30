@@ -1,0 +1,3 @@
+﻿Main.obj : error LNK2001: unresolved external symbol "public: __cdecl CElipse::CElipse(void)" (??0CElipse@@QEAA@XZ)
+Main.obj : error LNK2001: unresolved external symbol "public: __cdecl CBesier::CBesier(void)" (??0CBesier@@QEAA@XZ)
+C:\Users\ccg\Desktop\Proyecto_1\x64\Release\ICG - Plantilla.exe : fatal error LNK1120: 2 unresolved externals

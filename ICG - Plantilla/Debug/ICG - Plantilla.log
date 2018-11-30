@@ -1,0 +1,15 @@
+﻿  Besier.cpp
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(73): warning C4305: '=': truncation from 'int' to 'float'
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(74): warning C4305: '=': truncation from 'int' to 'float'
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(272): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\ccg\desktop\proyecto_1\src\besier.cpp(273): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Main.cpp
+  ICG - Plantilla.vcxproj -> C:\Users\ccg\Desktop\Proyecto_1\Debug\ICG - Plantilla.exe
