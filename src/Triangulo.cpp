@@ -1,5 +1,6 @@
 #include "Triangulo.h"
 #include "stdlib.h"
+#include <iostream>
 
 
 Triangulo::Triangulo()
@@ -7,10 +8,13 @@ Triangulo::Triangulo()
 	mVertices = new float*[3];
 	for (int i = 0; i < 3; ++i)
 		mVertices[i] = new float[2];
+	
+	mPaintColor[0] = 1.0;
+	mPaintColor[1] = 1.0;
+	mPaintColor[2] = 0;
 
 	mType = Triangle;
 }
-
 
 Triangulo::~Triangulo()
 {
@@ -433,6 +437,44 @@ void Triangulo::trazarLinea(int x1, int y1, int x2, int y2,int id) {
 		}
 	}
 }
+
+/*void Triangulo::trazarLinea(float x0, float y0, float x1, float y1, int id) {
+
+	lineas[id][0] = (y1 - y0) / (x1 - x0);
+	lineas[id][1] = x0;
+	lineas[id][2] = y0;
+}*/
+
+/*void Triangulo::paint() {
+	glColor3fv(mPaintColor);
+	int con;
+	int y = mBonding[1][1];
+	float aux;
+	bool t;
+	float menor, menor2;
+	while (y <= mBonding[0][1]) {
+		t = false;
+		con = 0;
+		int X = mBonding[1][0];
+		while (X <= mBonding[0][0]) {
+			for (int i = 0; i < 3; i++) {
+				aux = (lineas[i][0] * (X - lineas[i][1])) + lineas[i][2];
+				if (y - 0.5 <= aux && aux <= y+0.5 && !t && con == 0) {
+					t = true;
+				}
+				else if (y - 0.5 <= aux && aux <= y + 0.5 && t  && con > 1 ) {
+					t = false;
+				}
+			}
+			if (t) {
+				putPixel(X, y);
+				con++;
+			}
+			X++;
+		}
+		y++;
+	}	
+}*/
 
 void Triangulo::mover(int id, float x, float y) {
 

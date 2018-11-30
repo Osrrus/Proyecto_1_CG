@@ -1,3 +1,19 @@
-﻿Main.obj : error LNK2001: unresolved external symbol "public: __cdecl CElipse::CElipse(void)" (??0CElipse@@QEAA@XZ)
-Main.obj : error LNK2001: unresolved external symbol "public: __cdecl CBesier::CBesier(void)" (??0CBesier@@QEAA@XZ)
-C:\Users\ccg\Desktop\Proyecto_1\x64\Release\ICG - Plantilla.exe : fatal error LNK1120: 2 unresolved externals
+﻿Main.obj : error LNK2001: símbolo externo glfwSwapBuffers sin resolver
+Main.obj : error LNK2001: símbolo externo glfwGetVideoMode sin resolver
+Main.obj : error LNK2001: símbolo externo glfwTerminate sin resolver
+Main.obj : error LNK2001: símbolo externo glfwSetMouseButtonCallback sin resolver
+Main.obj : error LNK2001: símbolo externo glfwPollEvents sin resolver
+Main.obj : error LNK2001: símbolo externo glfwInit sin resolver
+Main.obj : error LNK2001: símbolo externo glfwSetKeyCallback sin resolver
+Main.obj : error LNK2001: símbolo externo glfwSetWindowShouldClose sin resolver
+Main.obj : error LNK2001: símbolo externo glfwCreateWindow sin resolver
+Main.obj : error LNK2001: símbolo externo glfwMakeContextCurrent sin resolver
+Main.obj : error LNK2001: símbolo externo glfwDestroyWindow sin resolver
+Main.obj : error LNK2001: símbolo externo glfwGetPrimaryMonitor sin resolver
+Main.obj : error LNK2001: símbolo externo glfwSetCursorPosCallback sin resolver
+Main.obj : error LNK2001: símbolo externo glfwGetCursorPos sin resolver
+Main.obj : error LNK2001: símbolo externo glfwSetWindowSizeCallback sin resolver
+Main.obj : error LNK2001: símbolo externo glfwWindowShouldClose sin resolver
+Main.obj : error LNK2001: símbolo externo glfwSetCharCallback sin resolver
+Main.obj : error LNK2001: símbolo externo glfwSetWindowPos sin resolver
+C:\Users\Alejandro\Desktop\Proyectos\Graficas_1\Proyecto_1\x64\Release\ICG - Plantilla.exe : fatal error LNK1120: 18 externos sin resolver
